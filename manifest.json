@@ -2,14 +2,23 @@
   "name": "Karaoke Green PWA",
   "short_name": "KaraokeGreen",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#120a14",
-  "theme_color": "#120a14",
+  "theme_color": "#ff007f",
   "icons": [
     {
       "src": "verdeks.webp",
       "sizes": "192x192",
-      "type": "image/webp"
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "verdeks.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
     }
   ]
 }
